@@ -1,0 +1,82 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffc1e3; 
+}
+
+.sorry-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.lace {
+    width: 120px;
+    height: 4px;
+    background: linear-gradient(to right, #ff6b81 30%, transparent 30%, transparent 70%, #ff6b81 70%);
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.lace-holder {
+    width: 150px;
+    height: 10px;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.photocard {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+h1 {
+    font-size: 2em;
+    color: #000000; 
+    font-weight: bold; 
+    text-shadow: 0 0 8px rgba(182, 0, 0, 0.8); 
+    margin-bottom: 20px;
+}
+
+#message {
+    margin-top: 1px;
+    font-size: 1.2em;
+    color: #000000; 
+    font-weight: bold; 
+    text-shadow: 0 0 20px rgba(229, 0, 34, 0.8); 
+}
+
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #ff6b81;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100px;
+}
+
+button:hover {
+    background-color: #ff4757;
+}
